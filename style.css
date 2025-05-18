@@ -1,0 +1,467 @@
+@font-face {
+  font-family: "Myriad Pro Regular";
+  src: url("fonts/MYRIADPRO-REGULAR.woff") format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Myriad Pro Bold";
+  src: url("fonts/MYRIADPRO-BOLD.woff") format("woff");
+  font-weight: normal;
+}
+
+body {
+  font-family: "Myriad Pro Regular", sans-serif;
+  padding: 0;
+  margin: 0;
+}
+
+.zoom-icon {
+  font-size: 28px;
+}
+.bold-font {
+  font-family: "Myriad Pro Bold", sans-serif;
+}
+
+.font-normal-pro {
+    font-family: "Myriad Pro Regular", sans-serif;
+}
+
+.main-container {
+  max-width: 1440px;
+}
+
+.hero-banner {
+  position: relative;
+  overflow: hidden;
+  min-height: 270px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("images/landing-bg.svg") center/cover no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.hero-banner > * {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+.gift-highlight {
+  display: inline-block;
+  background: url("images//hi-yellow\ 2.svg") center/contain no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 7px 14px;
+  color: #fff;
+}
+
+.gift-highlight-click-bg-yellow {
+  display: inline-block;
+  background: url("images//click-yellow-bg.svg") center/contain no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 15px 15px;
+}
+
+.dr-ali-banner {
+  position: relative;
+  overflow: hidden;
+  min-height: 900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.dr-ali-banner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("images/bg.svg") center/cover no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.dr-ali-banner > * {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+#hoverLink:hover ~ #moneyBackImage {
+  transform: rotate(12deg);
+}
+
+@media (max-width: 767px) {
+  .dr-ali-banner::before {
+    background: #233751; /* replace this with any color you'd like */
+  }
+  .gift-highlight-click-bg-yellow{
+  padding: 13px 0px;
+
+
+  }
+}
+
+
+.gift-highlight {
+  display: inline-block;
+  background: url("images/hi-yellow\ 2.svg") center/contain no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 7px 14px;
+  color: #fff;
+}
+
+.gift-highlight-yellow {
+  display: inline-block;
+  background: url("https://cdn.blackincae.com/Pzi-red-bg.png") center/contain no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 11px 40px;
+  color: #233751;
+  font-size: 28px;
+  font-weight: 700;
+}
+
+.w10gift-highlight-yellow {
+  display: inline-block;
+  background: url("https://cdn.blackincae.com/1pr-breathe-yellow-b.png") center/contain no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 30px 30px;
+  color: #333333;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.mw10gift-highlight-yellow {
+  display: inline-block;
+  background: url("images/max-w-yellow-bg.svg") center/contain no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding: 20px 30px;
+  color: #282828;
+  font-size: 32px;
+  font-weight: 700;
+}
+.bg-gray-skew {
+  position: relative;
+  overflow: hidden;
+  min-height: 2280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.bg-gray-skew::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("https://cdn.blackincae.com/4Jw-dark-red.svg") center/cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(
+    0 0, 
+    50% 2%, 
+    100% 0, 
+    100% 98%, 
+    50% 100%, 
+    0 98%
+  );
+}
+
+
+.bg-gray-skew > * {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+.bg-gray-skew-gray {
+  position: relative;
+  overflow: hidden;
+  min-height: 2280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.bg-gray-skew-gray::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #EFF6FF;
+  background-size: cover;
+  background-position: center;
+   clip-path: polygon(
+    0 0, 
+    50% 2%, 
+    100% 0, 
+    100% 100%, 
+    0 100%
+  );
+}
+
+
+.bg-gray-skew-gray > * {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+
+
+
+
+
+
+.bg-gray-skew-dark-red {
+  position: relative;
+  overflow: hidden;
+  min-height: 2280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.bg-gray-skew-dark-red::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: url("https://cdn.blackincae.com/a6d-dark-gray-bg-breathe.svg") center/cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(
+  0 0, 
+  100% 0, 
+  100% 98%, 
+  50% 100%, 
+  0 98%
+);
+
+}
+
+
+.bg-gray-skew-dark-red > * {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+
+
+
+
+
+
+
+
+.second-bg-gray-skew {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  z-index: 10;
+}
+.second-bg-gray-skew > * {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.product-box {
+  position: relative;
+  perspective: 1000px;
+}
+.box-shadow {
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+}
+.box-lid {
+  position: absolute;
+  top: -30px;
+  right: 0;
+  transform: rotateX(10deg);
+  transform-origin: bottom;
+  z-index: 10;
+}
+.sale-tag {
+  position: absolute;
+  top: 30%;
+  right: -15px;
+  z-index: 20;
+  transform: rotate(10deg);
+}
+.bottle {
+  position: relative;
+  z-index: 5;
+  bottom: -10px;
+}
+
+.second-bg-from-gray-skew {
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 100px 0;
+  z-index: 10;
+
+  /* background: url("images/bg-From\ The\ Desk\ of\ Dr.\ Ali.svg") top center no-repeat; */
+  /* background-size: cover; */
+}
+
+.second-bg-from-gray-skew > * {
+  position: relative;
+  z-index: 1;
+}
+
+@media (max-width: 767px) {
+  .second-bg-from-gray-skew {
+    background: #EFF6FF; 
+  padding: 20px 10px;
+
+  }
+  .bg-gray-skew{
+    background-color: #FAFAFA;
+  }
+  .second-bg-gray-skew{
+    background-color: #FAFAFA;
+    padding: 2px 2px;
+  }
+  .mw10gift-highlight-yellow{
+    background: url("images/plus-yellow.svg") center/contain no-repeat;
+    padding: 20px 12px;
+    line-height: 30px;
+  }
+}
+
+
+.custom-checkbox {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.custom-checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.custom-checkbox .checkmark {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 2px solid #a57e33;
+  border-radius: 4px;
+  position: relative;
+}
+
+.custom-checkbox input:checked + .checkmark::after {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 1px;
+  width: 6px;
+  height: 12px;
+  border: solid #a57e33;
+
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.custom-checkbox .checkmark {
+  transition: all 0.2s ease;
+}
+
+.custom-checkbox-container {
+  display: inline-flex;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+}
+
+.custom-checkbox-input {
+  opacity: 0;
+  position: absolute;
+}
+
+.custom-checkbox-box {
+  width: 16px;
+  height: 16px;
+  border: 2px solid #3398ff;
+  background-color: white;
+  border-radius: 4px;
+  position: relative;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.custom-checkbox-input:checked + .custom-checkbox-box {
+  background-color: white;
+}
+
+.custom-checkbox-input:checked + .custom-checkbox-box::after {
+  content: "";
+  position: absolute;
+  left: 4px;
+  top: 1px;
+  width: 5px;
+  height: 8px;
+  border: solid #3398ff;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+.custom-checkbox-container:hover .custom-checkbox-box {
+  border-color: #3398ff;
+}
+
+@keyframes spin360 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.spin-slow {
+  animation: spin360 5s linear infinite;
+}
+
