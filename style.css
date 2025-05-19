@@ -24,7 +24,7 @@ body {
 }
 
 .font-normal-pro {
-    font-family: "Myriad Pro Regular", sans-serif;
+  font-family: "Myriad Pro Regular", sans-serif;
 }
 
 .main-container {
@@ -105,13 +105,10 @@ body {
   .dr-ali-banner::before {
     background: #233751; /* replace this with any color you'd like */
   }
-  .gift-highlight-click-bg-yellow{
-  padding: 13px 0px;
-
-
+  .gift-highlight-click-bg-yellow {
+    padding: 13px 0px;
   }
 }
-
 
 .gift-highlight {
   display: inline-block;
@@ -124,7 +121,8 @@ body {
 
 .gift-highlight-yellow {
   display: inline-block;
-  background: url("https://cdn.blackincae.com/Pzi-red-bg.png") center/contain no-repeat;
+  background: url("https://cdn.blackincae.com/Pzi-red-bg.png") center/contain
+    no-repeat;
   background-size: contain;
   background-position: center;
   padding: 11px 40px;
@@ -135,7 +133,8 @@ body {
 
 .w10gift-highlight-yellow {
   display: inline-block;
-  background: url("https://cdn.blackincae.com/1pr-breathe-yellow-b.png") center/contain no-repeat;
+  background: url("https://cdn.blackincae.com/1pr-breathe-yellow-b.png")
+    center/contain no-repeat;
   background-size: contain;
   background-position: center;
   padding: 30px 30px;
@@ -170,32 +169,18 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("https://cdn.blackincae.com/4Jw-dark-red.svg") center/cover no-repeat;
+  background: url("https://cdn.blackincae.com/4Jw-dark-red.svg") center/cover
+    no-repeat;
   background-size: cover;
   background-position: center;
-  clip-path: polygon(
-    0 0, 
-    50% 2%, 
-    100% 0, 
-    100% 98%, 
-    50% 100%, 
-    0 98%
-  );
+  clip-path: polygon(0 0, 50% 2%, 100% 0, 100% 98%, 50% 100%, 0 98%);
 }
-
 
 .bg-gray-skew > * {
   position: relative;
   z-index: 1;
   color: #fff;
 }
-
-
-
-
-
-
-
 
 .bg-gray-skew-gray {
   position: relative;
@@ -213,18 +198,11 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background-color: #EFF6FF;
+  background-color: #eff6ff;
   background-size: cover;
   background-position: center;
-   clip-path: polygon(
-    0 0, 
-    50% 2%, 
-    100% 0, 
-    100% 100%, 
-    0 100%
-  );
+  clip-path: polygon(0 0, 50% 2%, 100% 0, 100% 100%, 0 100%);
 }
-
 
 .bg-gray-skew-gray > * {
   position: relative;
@@ -232,16 +210,10 @@ body {
   color: #fff;
 }
 
-
-
-
-
-
-
 .bg-gray-skew-dark-red {
   position: relative;
   overflow: hidden;
-  min-height: 2280px;
+  min-height: 3350px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -254,33 +226,18 @@ body {
   content: "";
   position: absolute;
   inset: 0;
-  background: url("https://cdn.blackincae.com/a6d-dark-gray-bg-breathe.svg") center/cover no-repeat;
+  background: url("https://cdn.blackincae.com/a6d-dark-gray-bg-breathe.svg")
+    center/cover no-repeat;
   background-size: cover;
   background-position: center;
-  clip-path: polygon(
-  0 0, 
-  100% 0, 
-  100% 98%, 
-  50% 100%, 
-  0 98%
-);
-
+  clip-path: polygon(0 0, 100% 0, 100% 98%, 50% 100%, 0 98%);
 }
-
 
 .bg-gray-skew-dark-red > * {
   position: relative;
   z-index: 1;
   color: #fff;
 }
-
-
-
-
-
-
-
-
 
 .second-bg-gray-skew {
   position: relative;
@@ -348,24 +305,22 @@ body {
 
 @media (max-width: 767px) {
   .second-bg-from-gray-skew {
-    background: #EFF6FF; 
-  padding: 20px 10px;
-
+    background: #eff6ff;
+    padding: 20px 10px;
   }
-  .bg-gray-skew{
-    background-color: #FAFAFA;
+  .bg-gray-skew {
+    background-color: #fafafa;
   }
-  .second-bg-gray-skew{
-    background-color: #FAFAFA;
+  .second-bg-gray-skew {
+    background-color: #fafafa;
     padding: 2px 2px;
   }
-  .mw10gift-highlight-yellow{
+  .mw10gift-highlight-yellow {
     background: url("images/plus-yellow.svg") center/contain no-repeat;
     padding: 20px 12px;
     line-height: 30px;
   }
 }
-
 
 .custom-checkbox {
   position: relative;
@@ -465,3 +420,105 @@ body {
   animation: spin360 5s linear infinite;
 }
 
+.bg-gray-skew-gray-primary-blue {
+  position: relative;
+  overflow: hidden;
+  min-height: 1900px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.bg-gray-skew-gray-primary-blue::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #233751;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 50% 2%, 100% 0, 100% 98%, 50% 100%, 0 98%);
+}
+
+.bg-gray-skew-gray-primary-blue > * {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.bg-gray-skew-gray-primary-gray {
+  position: relative;
+  overflow: hidden;
+  min-height: 2100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  z-index: 10;
+}
+
+.bg-gray-skew-gray-primary-gray::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: #fafafa;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 50% 2%, 100% 0, 100% 98%, 50% 100%, 0 98%);
+}
+
+.bg-gray-skew-gray-primary-gray > * {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.bg-gray-skew-gray-primary-gray-white {
+  position: relative;
+  overflow: hidden;
+  min-height: 2000px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  z-index: 10;
+  background-color: #fff;
+  padding-bottom: 80px;
+}
+
+.bg-gray-skew-gray-primary-gray-white::before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background-color: #fafafa;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 50% 2%, 100% 0, 100% 98%, 50% 100%, 0 98%);
+  z-index: 0;
+}
+
+.bg-gray-skew-gray-primary-gray-white::before {
+  content: "";
+  position: absolute;
+  top: 20%;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  background-color: #eff6ff;
+  background-size: cover;
+  background-position: center;
+  clip-path: polygon(0 0, 50% 2%, 100% 0, 100% 98%, 50% 100%, 0 98%);
+  z-index: 0;
+}
+
+.bg-gray-skew-gray-primary-gray-white > * {
+  position: relative;
+  z-index: 1;
+}
