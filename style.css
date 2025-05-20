@@ -181,6 +181,11 @@ body {
   z-index: 1;
   color: #fff;
 }
+@media (max-width: 767px) {
+  .bg-gray-skew::before {
+    clip-path: none;
+  }
+}
 
 .bg-gray-skew-gray {
   position: relative;
