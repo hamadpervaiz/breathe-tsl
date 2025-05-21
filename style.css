@@ -688,15 +688,16 @@ clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
 
 
 .bg-gray-skew-img {
-  position: relative;
+ position: relative;
   overflow: hidden;
-  min-height: 2100px;
+  min-height: 1800px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   flex-direction: column;
   z-index: 10;
+  background-color: #fff;
   padding-bottom: 50px;
 }
 
@@ -704,12 +705,21 @@ clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
   content: "";
   position: absolute;
   inset: 0;
-  background: url("https://cdn.blackincae.com/w3O-rectangle-17.svg") center/cover
-    no-repeat;
+  background-color: #c9e2e0;
+  background-image: url("https://cdn.blackincae.com/w3O-rectangle-17.svg");
+  background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
-  clip-path: polygon(0 0, 50% 2%, 100% 0, 100% 98%, 50% 100%, 0 98%);
+  background-position: center top;
+ clip-path: polygon(0 0, 50% 1%, 100% 0, 100% 98%, 50% 99%, 0 98%);
+ 
+
+
+  
+  filter: blur(10px);
+  z-index: 0;
 }
+
+
 
 .bg-gray-skew-img > * {
   position: relative;
@@ -717,6 +727,14 @@ clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
   color: #fff;
 }
 
+@media (max-width: 767px) {
+  .bg-gray-skew-img {
+  
+  padding-bottom: 150px;
+
+  }
+ 
+}
 
 
 
