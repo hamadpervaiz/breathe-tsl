@@ -678,6 +678,15 @@ clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
   position: relative;
   z-index: 1;
 }
+@media (max-width: 767px) {
+  .bg-gray-skew-gray-primary-gray-white-light-card::before {
+  background-color: #fff;
+  clip-path: none;
+
+  }
+ 
+}
+
 
 
 
@@ -809,7 +818,6 @@ clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
   text-align: start;
   flex-direction: column;
   z-index: 10;
-  /* background-color: #FAFAFA; */
   padding-top: 120px;
   padding-bottom: 80px;
 }
@@ -832,6 +840,23 @@ clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
   position: relative;
   z-index: 1;
 }
+
+
+@media (max-width: 767px) {
+  .bg-gray-skew-gray-primary-gray-white-fq {
+  padding-top: 10px;
+  padding-bottom: 0px;
+
+  
+
+  }
+  .bg-gray-skew-gray-primary-gray-white-fq::before{
+  background-color: #FFF;
+
+  }
+ 
+}
+
 
 
 
