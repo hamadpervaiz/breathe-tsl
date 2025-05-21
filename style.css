@@ -206,7 +206,8 @@ body {
   background-color: #eff6ff;
   background-size: cover;
   background-position: center;
-  clip-path: polygon(0 0, 50% 2%, 100% 0, 100% 100%, 0 100%);
+clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
+
 }
 
 .bg-gray-skew-gray > * {
