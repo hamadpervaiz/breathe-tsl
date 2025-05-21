@@ -219,13 +219,14 @@ clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
 .bg-gray-skew-dark-red {
   position: relative;
   overflow: hidden;
-  min-height: 3350px;
+  min-height: 3450px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   flex-direction: column;
   z-index: 10;
+  padding-bottom: 60px;
 }
 
 .bg-gray-skew-dark-red::before {
@@ -244,7 +245,12 @@ clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
   z-index: 1;
   color: #fff;
 }
-
+@media (max-width: 767px) {
+  .bg-gray-skew-dark-red::before {
+    clip-path: none;
+  }
+  
+}
 .second-bg-gray-skew {
   position: relative;
   overflow: hidden;
@@ -436,6 +442,7 @@ clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
   text-align: center;
   flex-direction: column;
   z-index: 10;
+  padding-bottom: 20px;
 }
 
 .bg-gray-skew-gray-primary-blue::before {
@@ -452,6 +459,12 @@ clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
   position: relative;
   z-index: 1;
   color: #fff;
+}
+
+@media (max-width: 767px) {
+  .bg-gray-skew-gray-primary-blue::before {
+    clip-path: none;
+  }
 }
 
 .bg-gray-skew-gray-primary-gray {
@@ -482,6 +495,11 @@ clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
   color: #fff;
 }
 
+@media (max-width: 767px) {
+  .bg-gray-skew-gray-primary-gray::before {
+    clip-path: none;
+  }
+}
 .bg-gray-skew-gray-primary-gray-other {
   position: relative;
   overflow: hidden;
@@ -501,7 +519,7 @@ clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
   background-color: #fafafa;
   background-size: cover;
   background-position: center;
-  clip-path: polygon(0 0, 50% 2%, 100% 0, 100% 98%, 50% 100%, 0 98%);
+clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
 }
 
 .bg-gray-skew-gray-primary-gray-other > * {
@@ -524,19 +542,7 @@ clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
   padding-bottom: 80px;
 }
 
-.bg-gray-skew-gray-primary-gray-white::before {
-  content: "";
-  position: absolute;
-  top: 20%;
-  left: 0;
-  width: 100%;
-  height: 80%;
-  background-color: #fafafa;
-  background-size: cover;
-  background-position: center;
-  clip-path: polygon(0 0, 50% 2%, 100% 0, 100% 98%, 50% 100%, 0 98%);
-  z-index: 0;
-}
+
 
 .bg-gray-skew-gray-primary-gray-white::before {
   content: "";
@@ -548,8 +554,15 @@ clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
   background-color: #eff6ff;
   background-size: cover;
   background-position: center;
-  clip-path: polygon(0 0, 50% 2%, 100% 0, 100% 98%, 50% 100%, 0 98%);
+clip-path: polygon(0 0, 50% 0.75%, 100% 0, 100% 99.25%, 50% 99.75%, 0 99.25%);
+
   z-index: 0;
+}
+@media (max-width: 767px) {
+  .bg-gray-skew-gray-primary-gray-white::before {
+  top: 0%;
+
+  }
 }
 
 .bg-gray-skew-gray-primary-gray-white > * {
